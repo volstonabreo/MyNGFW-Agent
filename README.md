@@ -15,14 +15,14 @@ The traffic from the victim machine to the internet is routed using a mix of Pal
 
 The MyNGFW Agent is responsible for TLS interception (by acting as a forward proxy) and running the AI Pattern Analysis Engine. The Palo Alto NGFW has a decryption profile that allows it to view encrypted traffic in plain text. The Palo Alto NGFW is then responsible for running the Advanced Wildfire and Advanced URL Filtering features on the plain text traffic.
 
-<br>Advanced Wildfire – a feature that essentially detonates every file passing through the network in a sandbox (in real-time) and cuts off the file if that file is determined malicious.
-Advanced URL Filtering – similar to Wildfire, but instead of files, it detonates URL web pages. 
+Advanced Wildfire – a feature that essentially detonates every file passing through the network in a sandbox (in real-time) and cuts off the file if that file is determined malicious.
+<br>Advanced URL Filtering – similar to Wildfire, but instead of files, it detonates URL web pages. 
 
-<br>The premise of this project began with the question:
-<br>&emsp;&emsp;&emsp;&emsp;“What if an adversary bypasses system-level protections”
+The premise of this project began with the question:
+<br>&emsp;&emsp;&emsp;“What if an adversary bypasses system-level protections”
 
-<br>The MyNGFW Agent is an agent that aims to solve this problem by detecting any attack at the network layer. We do this by translating attack TTPs to how they would look like over the network, and use that pattern intelligence to train the AI Pattern Analysis Engine.
+The MyNGFW Agent is an agent that aims to solve this problem by detecting any attack at the network layer. We do this by translating attack TTPs to how they would look like over the network, and use that pattern intelligence to train the AI Pattern Analysis Engine.
 
-<br>The AI Pattern Analysis Engine powered by Llama 3.2 inspects traffic passing through the MyNGFW Agent and detects any cyber attacks. This is complemented by the Palo Alto detonation feature that detects any advanced malware using basic dynamic analysis. 
+The AI Pattern Analysis Engine powered by Llama 3.2 inspects traffic passing through the MyNGFW Agent and detects any cyber attacks. This is complemented by the Palo Alto detonation feature that detects any advanced malware using basic dynamic analysis. 
 
-<br>At the completion of the project, I’ll simulate five prominent APTs carrying out multi-stage attacks on the victim machine and we shall see the MyNGFW Agent detect these attacks.
+At the completion of the project, I’ll simulate five prominent APTs carrying out multi-stage attacks on the victim machine and we shall see the MyNGFW Agent detect these attacks.
