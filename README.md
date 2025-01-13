@@ -1,5 +1,5 @@
 
-# MyNGFW Agent
+# Project MyNGFW Agent
 
 <br><br>
 <a href="https://viewer.diagrams.net/?tags=%7B%7D&lightbox=1&highlight=0000ff&edit=_blank&layers=1&nav=1&title=FestiveProject.drawio#Uhttps%3A%2F%2Fdrive.google.com%2Fuc%3Fid%3D1D9WyrCkAx0tYXvUey82syTqF54u-n72T%26export%3Ddownload">
@@ -19,10 +19,15 @@ Advanced Wildfire – a feature that essentially detonates every file passing th
 <br>Advanced URL Filtering – similar to Wildfire, but instead of files, it detonates URL web pages. 
 
 The premise of this project began with the question:
-<br>&emsp;&emsp;&emsp;“What if an adversary bypasses system-level protections”
+<br>&emsp;&emsp;&emsp;&emsp;“What if an adversary bypasses system-level protections”
 
 The MyNGFW Agent is an agent that aims to solve this problem by detecting any attack at the network layer. We do this by translating attack TTPs to how they would look like over the network, and use that pattern intelligence to train the AI Pattern Analysis Engine.
 
 The AI Pattern Analysis Engine powered by Llama 3.2 inspects traffic passing through the MyNGFW Agent and detects any cyber attacks. This is complemented by the Palo Alto detonation feature that detects any advanced malware using basic dynamic analysis. 
 
 At the completion of the project, I’ll simulate five prominent APTs carrying out multi-stage attacks on the victim machine and we shall see the MyNGFW Agent detect these attacks.
+
+Timeline of the Project
+<br>Phase I&emsp;&emsp;&emsp; &nbsp;The Network - _Completed_	
+<br>Phase II&emsp;&emsp;&emsp; Setup TLS interception, the Decryption Profile, Advanced Wildfire & Advanced URL Filtering - _Completed_
+<br>Phase III&emsp;&emsp;&emsp;Develop the AI Pattern Analysis Engine - _Ongoing_
