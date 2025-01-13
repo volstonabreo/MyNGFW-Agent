@@ -29,5 +29,5 @@ At the completion of the project, I’ll simulate five prominent APTs carrying o
 
 Timeline of the Project
 <br>Phase I&emsp;&emsp;&emsp; &nbsp;The Network - _Completed_	
-<br>Phase II&emsp;&emsp;&emsp; Setup TLS interception, the Decryption Profile, Advanced Wildfire & Advanced URL Filtering - _Completed_
+<br>Phase II&emsp;&emsp;&emsp; Setup TLS interception, the Decryption Profile, Wildfire & Advanced URL Filtering - _Completed_
 <br>Phase III&emsp;&emsp;&emsp;Develop the AI Pattern Analysis Engine - _Ongoing_
