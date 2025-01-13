@@ -7,6 +7,7 @@
 </a>
 <br><br>
 
+### The Network
 A Virtual Network consists of a victim machine and a Palo Alto Virtual NGFW running on Azure. The Palo Alto NGFW has two zones – an Internal Zone representing an internal private network and a Public Zone responsible for communicating traffic from the Internal Zone to the outside world. Traffic originating from the Internal Zone gets NATed at eth1.
 
 The above Virtual Network is virtual peered to another Virtual Network consisting of MyNGFW Agent with a single interface eth0 that is connected to a virtual gateway with a public IP address and NATs traffic going to the internet.
