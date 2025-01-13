@@ -9,11 +9,11 @@
 
 A Virtual Network consists of a victim machine and a Palo Alto Virtual NGFW running on Azure. The Palo Alto NGFW has two zones – an Internal Zone representing an internal private network and a Public Zone responsible for communicating traffic from the Internal Zone to the outside world. Traffic originating from the Internal Zone gets NATed at eth1.
 
-<br>The above Virtual Network is virtual peered to another Virtual Network consisting of MyNGFW Agent with a single interface eth0 that is connected to a virtual gateway with a public IP address and NATs traffic going to the internet.
+The above Virtual Network is virtual peered to another Virtual Network consisting of MyNGFW Agent with a single interface eth0 that is connected to a virtual gateway with a public IP address and NATs traffic going to the internet.
 
-<br>The traffic from the victim machine to the internet is routed using a mix of Palo Alto Static Routes, Azure Route Tables and the good old iptables.
+The traffic from the victim machine to the internet is routed using a mix of Palo Alto Static Routes, Azure Route Tables and the good old iptables.
 
-<br>The MyNGFW Agent is responsible for TLS interception (by acting as a forward proxy) and running the AI Pattern Analysis Engine. The Palo Alto NGFW has a decryption profile that allows it to view encrypted traffic in plain text. The Palo Alto NGFW is then responsible for running the Advanced Wildfire and Advanced URL Filtering features on the plain text traffic.
+The MyNGFW Agent is responsible for TLS interception (by acting as a forward proxy) and running the AI Pattern Analysis Engine. The Palo Alto NGFW has a decryption profile that allows it to view encrypted traffic in plain text. The Palo Alto NGFW is then responsible for running the Advanced Wildfire and Advanced URL Filtering features on the plain text traffic.
 
 <br>Advanced Wildfire – a feature that essentially detonates every file passing through the network in a sandbox (in real-time) and cuts off the file if that file is determined malicious.
 Advanced URL Filtering – similar to Wildfire, but instead of files, it detonates URL web pages. 
