@@ -22,7 +22,7 @@ Advanced Wildfire – a feature that essentially detonates every file passing th
 
 ## The Premise
 The premise of this project is the question:
-<br>&emsp;&emsp;&emsp;&emsp;“What if an adversary bypasses system-level protections”
+<br>&emsp;&emsp;&emsp;&emsp;_“What if an adversary bypasses system-level protections”_
 
 The MyNGFW Agent is an agent that aims to solve this problem by detecting any attack at the network layer. We do this by translating attack TTPs to how they would look like over the network, and use that pattern intelligence to train the AI Pattern Analysis Engine.
 
@@ -31,6 +31,6 @@ The AI Pattern Analysis Engine powered by Llama 3.2 inspects traffic passing thr
 At the completion of the project, I’ll simulate five prominent APTs carrying out multi-stage attacks on the victim machine and we shall see the MyNGFW Agent detect these attacks.
 
 ## The Timeline
-<br>Phase I&emsp;&emsp;&emsp; &nbsp;The Network - _Completed_	
-<br>Phase II&emsp;&emsp;&emsp; Setup TLS interception, the Decryption Profile, Wildfire & Advanced URL Filtering - _Completed_
-<br>Phase III&emsp;&emsp;&emsp;Develop the AI Pattern Analysis Engine - _Ongoing_
+Phase I&emsp;&emsp;&emsp; &nbsp;The Network - Completed	
+<br>Phase II&emsp;&emsp;&emsp; Setup TLS interception, the Decryption Profile, Advanced Wildfire & URL Filtering - Completed
+<br>Phase III&emsp;&emsp;&emsp;Develop the AI Pattern Analysis Engine - Ongoing
