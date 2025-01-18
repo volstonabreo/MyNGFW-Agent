@@ -21,7 +21,7 @@ Advanced Wildfire – a feature that essentially detonates every file passing th
 <br>Advanced URL Filtering – similar to Wildfire, but instead of files, it detonates URL web pages. 
 
 ## The Premise
-The premise of this project is the question:
+The premise of this project is:
 <br>&emsp;&emsp;&emsp;&emsp;_“What if an adversary bypasses system-level protections”_
 
 The MyNGFW Agent is an agent that aims to solve this problem by detecting any attack at the network layer. We do this by translating attack TTPs to how they would look like over the network, and use that pattern intelligence to train the AI Pattern Analysis Engine.
